@@ -13,5 +13,5 @@ int main(int argc, char *argv[])
 	data_processed = read(file_descriptor, buffer, BUFSIZ);
 	printf("I'm child process of Kravchishina with pid=%d. ", getpid());
 	printf("I read %d bytes: %s\n", data_processed, buffer);
-	return EXIT_SUCCESS
+	return EXIT_SUCCESS;
 }
