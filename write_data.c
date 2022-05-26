@@ -23,7 +23,7 @@ int main()
 		else
 		{
 			data_processed = write(file_pipes[1], message, strlen(message));
-			printf("I'm parent process of Kirlan with pid=%d. ", getpid());
+			printf("I'm parent process of Kravchishina with pid=%d. ", getpid());
 			printf("I wrote %d bytes of message!\n", data_processed);
 			sleep(1);
 		}
